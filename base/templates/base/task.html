@@ -1,1 +1,4 @@
-<h1>Task: {{ task }}</h1>
+<h1>Task: {{ task.title }}</h1>
+<p>{{ task.description }}</p>
+
+<a href="{% url 'task_list' %}">Back to Task List</a>
